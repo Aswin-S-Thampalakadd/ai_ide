@@ -1,0 +1,35 @@
+{
+  "name": "ai_ide",
+  "version": "1.0.0",
+  "description": "A local AI powered developer IDE",
+  "main": "electron/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "electron": "electron .",
+    "start": "vite & electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aswin-S-Thampalakadd/ai_ide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aswin-S-Thampalakadd/ai_ide/issues"
+  },
+  "homepage": "https://github.com/Aswin-S-Thampalakadd/ai_ide#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "electron": "^44.5.1",
+    "vite": "^8.3.2"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0"
+  }
+}
